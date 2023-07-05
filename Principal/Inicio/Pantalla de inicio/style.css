@@ -1,0 +1,75 @@
+body{
+  background-color: aliceblue;
+  margin: 5;
+  padding: 5;
+  background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
+}
+h1{
+  margin-top: 200px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color: azure;
+}
+.inicio{
+  background-color: black;
+}
+.all{
+  border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
+}
+
+.caja{
+  margin: 20px;
+  border-radius: 10px;
+  width: 130%;
+  padding: 50px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  box-shadow: -3px 0 10px rgb(255, 0, 0), -4px 0 10px rgba(255, 255, 255, 0.993),
+  -5px 0 10px rgb(0, 81, 255);
+  
+}
+.targeta-1{
+  width: 500px;
+  height: 500px;
+  background-image: url(../proyecto3-pagina.png);
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.targeta-2{
+  width: 500px;
+  height: 500px;
+  background-image: url(../memorama.png);
+  background-position: center center;
+  background-repeat:no-repeat;
+}
+.targeta-3{
+  width: 500px;
+  height: 500px;
+  background-image: url(../Imagenes/modal-introNew.png);
+  background-position: center center;
+  background-repeat:no-repeat;
+}
+
+.all .caja:hover {
+  margin-right: 80px;
+  transform: rotate(3deg) translate(-15px);
+}
+
+@media screen and (max-width:1550px){
+
+  .all .caja{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
