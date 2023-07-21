@@ -81,8 +81,9 @@ footer{
 } 
 
 
+/* documentame esta */
 
-#posicion1:checked ~ .Cards label:nth-of-type(12) {order: 4;}
+#posicion1:checked ~ .Cards label:nth-of-type(12) {order: 4;} /* 1 */
 #posicion1:checked ~ .Cards label:nth-of-type(2) {order: 14;}
 #posicion1:checked ~ .Cards label:nth-of-type(8) {order: 1;}
 #posicion1:checked ~ .Cards label:nth-of-type(15) {order: 6;}
@@ -337,7 +338,7 @@ input[type="radio"]
   
 }
 #caja1:checked ~  .Cards  .Label1 .Card ,
-#caja2:checked ~  .Cards .Label2 .Card ,
+#caja2:checked ~  .Cards .Label2 .Card , /**/
 #caja3:checked ~  .Cards .Label3 .Card ,
 #caja4:checked ~  .Cards .Label4 .Card ,
 #caja5:checked ~  .Cards .Label5 .Card ,
@@ -353,13 +354,12 @@ input[type="radio"]
 #caja15:checked ~  .Cards .Label15 .Card ,
 #caja16:checked ~  .Cards .Label16 .Card  {
   transform: rotateY(180deg);
-
 }
 
 
 
 
- #caja1:checked + #caja2:checked ~ .Cards .Label1 , 
+#caja1:checked + #caja2:checked ~ .Cards .Label1 , 
 #caja1:checked + #caja2:checked ~ .Cards .Label2 ,
 #caja3:checked + #caja4:checked ~ .Cards .Label3 ,
 #caja3:checked + #caja4:checked ~ .Cards .Label4 ,
@@ -392,8 +392,9 @@ input[type="radio"]
 #caja1:checked ~ #caja2:not(:checked) ~ #caja13:checked ~ #caja14:not(:checked) ~ .Cards label:not(.Label1):not(.Label13),
 #caja1:checked ~ #caja2:not(:checked) ~ #caja13:not(:checked) ~ #caja14:checked ~ .Cards label:not(.Label1):not(.Label14),
 #caja1:checked ~ #caja2:not(:checked) ~ #caja15:checked ~ #caja16:not(:checked) ~ .Cards label:not(.Label1):not(.Label15),
-#caja1:checked ~ #caja2:not(:checked) ~ #caja15:not(:checked) ~ #caja16:checked ~ .Cards label:not(.Label1):not(.Label16),
+#caja1:checked ~ #caja2:not(:checked) ~ #caja15:not(:checked) ~ #caja16:checked ~ .Cards label:not(.Label1):not(.Label16),/*documenta */
 
+/*desactivar el checkbox de todos los demas para la carta 2*/
 #caja1:not(:checked) ~ #caja2:checked  ~ #caja3:checked ~ #caja4:not(:checked) ~ .Cards label:not(.Label2):not(.Label3),
  #caja1:not(:checked) ~ #caja2:checked ~ #caja3:not(:checked) ~ #caja4:checked ~ .Cards label:not(.Label2):not(.Label4),
  #caja1:not(:checked) ~ #caja2:checked ~ #caja5:checked ~ #caja6:not(:checked) ~ .Cards label:not(.Label2):not(.Label5),
@@ -408,7 +409,7 @@ input[type="radio"]
  #caja1:not(:checked) ~ #caja2:checked ~ #caja13:not(:checked) ~ #caja14:checked ~ .Cards label:not(.Label2):not(.Label14),
  #caja1:not(:checked) ~ #caja2:checked ~ #caja15:checked ~ #caja16:not(:checked) ~ .Cards label:not(.Label2):not(.Label15),
  #caja1:not(:checked) ~ #caja2:checked ~ #caja15:not(:checked) ~ #caja16:checked ~ .Cards label:not(.Label2):not(.Label16),
-
+/*para l*/
 #caja3:checked ~ #caja4:not(:checked) ~ #caja5:checked ~ #caja6:not(:checked) ~ .Cards label:not(.Label3):not(.Label5),
 #caja3:checked ~ #caja4:not(:checked) ~ #caja5:not(:checked) ~ #caja6:checked ~ .Cards label:not(.Label3):not(.Label6),
 #caja3:checked ~ #caja4:not(:checked) ~ #caja7:checked ~ #caja8:not(:checked) ~ .Cards label:not(.Label3):not(.Label7),
@@ -635,7 +636,6 @@ input[type="radio"]
 #caja13:not(:checked) ~ #caja14:checked ~ #caja15:not(:checked) ~ #caja16:checked ~  .CartasMal
 {
   display: flex;
-  pointer-events: none;
 }  
 
 #caja1:checked + #caja2:checked + #caja3:checked + #caja4:checked + #caja5:checked + #caja6:checked + #caja7:checked
@@ -731,8 +731,8 @@ display: flex;
 
 @media screen and (max-width: 800px) {
   .FlipCard{
-    width: 140px;
-    height: 140px;
+    width: 140px !important;
+    height: 140px !important;
   }
   .Ganaste h1 {
     font-size: 1rem;
@@ -793,8 +793,8 @@ display: flex;
     height: 100px !important;
   }
   .Ganaste h1 {
-    font-size: 1rem !important;
-    margin-bottom: 1rem !important;
+    font-size: 0.8rem !important;
+    margin-bottom: 0.8rem !important;
   }
   .Ganaste{
  
