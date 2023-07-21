@@ -19,6 +19,7 @@ h1{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-around;
+  justify-items: center;
 
   background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
 }
@@ -107,9 +108,95 @@ h1{
 
 @media screen and (max-width:1550px){
 
-  .all .caja{
-    display: flex;
-    flex-direction: column;
+  .all{
+    border-radius: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
   }
   
 }
+
+@media screen and (max-width:1000px){
+
+  .all{
+    border-radius: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+}
+
+@media screen and (max-width: 560px){
+
+  .targeta-1{
+    width: 300px;
+    height: 300px;
+    background-image: url(./Principal/Inicio/proyecto3-pagina.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .targeta-2{
+    width: 300px;
+    height: 300px;
+    background-image: url(./Principal/Inicio/memorama.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+  }
+  .targeta-3{
+    width: 300px;
+    height: 300px;
+    background-image: url(./Principal/Inicio/Imagenes/modal-introNew.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+  }
+  .targeta-4{
+    width: 300px;
+    height: 300px;
+    background-image: url(./Principal/Inicio/TiendaReact.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .targeta-5{
+    width: 300px;
+    height: 300px;
+    background-image: url(./Principal/Inicio/TiendaAngular.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .targeta-6{
+    width: 300px;
+    height: 300px;
+    background-image: url(./Principal/Inicio/Hexadecimal.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .targeta-7{
+    width: 300px;
+    height: 300px;
+    background-image: url(./Principal/Inicio/ConsumiendoApi.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .targeta-8{
+    width: 300px;
+    height: 300px;
+    background-image: url(./Principal/Inicio/inicioReact.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  
+}
+
