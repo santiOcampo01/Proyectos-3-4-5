@@ -16,8 +16,8 @@ h1{
 }
 .all{
   border-radius: 100px;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-around;
 
   background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
@@ -40,7 +40,7 @@ h1{
 .targeta-1{
   width: 500px;
   height: 500px;
-  background-image: url(../proyecto3-pagina.png);
+  background-image: url(./Principal/Inicio/proyecto3-pagina.png);
   background-position: center center;
   background-repeat:no-repeat;
   background-size: cover;
@@ -48,16 +48,56 @@ h1{
 .targeta-2{
   width: 500px;
   height: 500px;
-  background-image: url(../memorama.png);
+  background-image: url(./Principal/Inicio/memorama.png);
   background-position: center center;
   background-repeat:no-repeat;
 }
 .targeta-3{
   width: 500px;
   height: 500px;
-  background-image: url(../Imagenes/modal-introNew.png);
+  background-image: url(./Principal/Inicio/Imagenes/modal-introNew.png);
   background-position: center center;
   background-repeat:no-repeat;
+}
+.targeta-4{
+  width: 500px;
+  height: 500px;
+  background-image: url(./Principal/Inicio/TiendaReact.png);
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.targeta-5{
+  width: 500px;
+  height: 500px;
+  background-image: url(./Principal/Inicio/TiendaAngular.png);
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.targeta-6{
+  width: 500px;
+  height: 500px;
+  background-image: url(./Principal/Inicio/Hexadecimal.png);
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.targeta-7{
+  width: 500px;
+  height: 500px;
+  background-image: url(./Principal/Inicio/ConsumiendoApi.png);
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.targeta-8{
+  width: 500px;
+  height: 500px;
+  background-image: url(./Principal/Inicio/inicioReact.png);
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 
 .all .caja:hover {
